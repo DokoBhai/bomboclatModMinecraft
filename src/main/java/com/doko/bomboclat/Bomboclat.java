@@ -1,5 +1,7 @@
 package com.doko.bomboclat;
 
+import com.doko.bomboclat.block.ModBlocks;
+import com.doko.bomboclat.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -12,5 +14,7 @@ public class Bomboclat implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info(MOD_ID);
+		ModItems.registerItems();
+		ModBlocks.registerBlocks();
 	}
 }

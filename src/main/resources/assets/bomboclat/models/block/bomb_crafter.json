@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+        "all": "bomboclat:block/bomb_crafter"
+    }
+}

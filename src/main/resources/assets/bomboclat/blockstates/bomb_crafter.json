@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "bomboclat:block/bomb_crafter"
+    }
+  }
+}
