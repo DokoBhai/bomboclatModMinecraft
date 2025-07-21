@@ -1,6 +1,7 @@
 package com.doko.bomboclat;
 
 import com.doko.bomboclat.block.ModBlocks;
+import com.doko.bomboclat.item.ModItemGroups;
 import com.doko.bomboclat.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
@@ -14,6 +15,9 @@ public class Bomboclat implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		LOGGER.info(MOD_ID);
+		ModItemGroups.registerItemGroups();
+
+
 		ModItems.registerItems();
 		ModBlocks.registerBlocks();
 	}
